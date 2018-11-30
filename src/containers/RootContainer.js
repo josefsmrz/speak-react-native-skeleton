@@ -42,9 +42,8 @@ export default class RootContainer extends React.PureComponent<null> {
           }}
         />
         <TouchableHighlight onPress={() => doSomething("React Native", "!")}>
-          <Text style={styles.strong}>Do somethin</Text>
+          <Text style={styles.strong}>Do something</Text>
         </TouchableHighlight>
-        console.log("test");
         <Text>
           Lorem ipsum dolor sit amet, <Title>Title</Title> consectetur
           adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
